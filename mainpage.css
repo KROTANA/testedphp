@@ -1,0 +1,1165 @@
+.fir{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.shap{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    background-color: orange;
+    position:fixed;
+    flex-wrap: wrap;
+
+
+}
+.logo {
+    background-image: url(./resources/logo-greatway.png);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 100%; 
+    
+    background-position: center; 
+    background-color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tex{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    display: flex;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.ysl {
+    width: 10.1%;
+    height: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 0;
+    align-items: center;
+   
+    
+  }
+  
+  #menu li {
+    list-style-type: none;
+    padding: 5px;
+    
+  }
+  
+  .ysl:hover #menu {
+    display: block;
+    
+  }
+
+  #menu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 0;
+    align-items: center;
+    
+  }
+  
+  #menu2 li {
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  .onac:hover #menu2 {
+    display: block;
+  }
+.onac{
+    width: 10.1%;
+    height: 40px;
+   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.conatct{
+    width: 40%;
+    height: 40px;
+    
+    
+}
+.glav{
+    width: 10.1%;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conatct2{
+    width: 40%;
+    height: 40px;
+   
+}
+.spaced{
+    width: 10%;
+    height: 100%;
+    
+    align-items: center;
+
+}
+.comb{
+    display: flex;
+    
+    flex-direction: row;
+    width: 30%;
+    height: 100%;
+}
+.bod{
+    width: 100%;
+    height: 80%;
+}
+.back{
+  transition: 0.5s ease;
+  border-radius: 20px;
+}
+.back:hover{
+  background-color: orange;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.d{
+  background-image: url("nav-arrow-down-svgrepo-com.svg");
+  width: 20px;
+  height: 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  transition: 0.5s ease;
+}
+.mov{
+  display: flex;
+}
+.autopolz{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.btag{
+  margin-top: 2%;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.bm{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ham{
+  
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: 0.5s ease;
+  
+}
+.line{
+  
+  width: 100%;
+  height: 15%;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+.shm{
+  width: 100%;
+  position:fixed;
+  
+
+}
+.responsemenu{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.showme{
+  width: 100%;
+ 
+  transition: height 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+  height: 0%;
+  overflow: hidden;
+  justify-content: center;
+  
+}
+.shmbt{
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+
+
+.dburg1{
+  background-image: url("nav-arrow-down-svgrepo-com.svg");
+  width: 20px;
+  height: 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  transition: 0.5s ease;
+}
+.dburg2{
+  background-image: url("nav-arrow-down-svgrepo-com.svg");
+  width: 20px;
+  height: 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  transition: 0.5s ease;
+}
+
+.shmbtysl{
+  overflow: hidden;
+  background: orange;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  height: 0;
+  transition: 0.5s ease;
+  
+}
+
+.linkmen{
+  overflow: hidden;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.shmbtysl2{
+  overflow: hidden;
+  background: orange;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  height: 0;
+  transition: 0.5s ease;
+  
+}
+
+.bod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1000px;
+
+}
+.banner{
+  width: 70%;
+  height: 750px;
+  
+  background-image: url(main.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  
+  
+}
+.bannerblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.ks{
+ 
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+.ks2{
+ 
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+.ks3{
+ 
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+.kslg1{
+  background-image: url(icon-01.png);
+  background-size: 100% 100%;
+  background-position: center; 
+  width: 70px;
+  height: 70px;
+ 
+  
+}
+.kslg2{
+  background-image: url(icon-02.png);
+  background-size: 100% 100%;
+  background-position: center; 
+  width: 70px;
+  height: 70px
+}
+.kslg3{
+  background-image: url(icon-03.png);
+  background-size: 100% 100%;
+  background-position: center; 
+  width: 70px;
+  height: 70px
+}
+.bannertext{
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  padding: 4%;
+  height: 70%;
+  
+}
+.btreg{
+  width: 40%;
+}
+.kstx{
+  color: white;
+  font-weight: bold;
+}
+.btagban{
+  width: 30%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about{
+  width: 100%;
+  height: 500px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  
+  
+}
+.blocks-1{
+  
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: black;
+  color:orange;
+  padding: 2%;
+}
+.blocks-2{
+  
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: black;
+  color: orange;
+  padding: 2%;
+  
+}
+.blocks-button{
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.blocks-logs{
+  font-size: 60px;
+  font-weight: bold;
+}
+.blocks-text{
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.blocks-button{
+
+}
+.ysl-logo1{
+  background-image: url(perevozka-kontejnerov.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.ysl-logo2{
+  background-image: url(perevozka-sbornyh-gruzov.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.ysl-logo3{
+  background-image: url(perevozka-negabaritnyh-gruzov.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.ysl-logo4{
+  background-image: url(perevozka-nasypnyh-gruzov.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.ysl-logo5{
+  background-image: url(perevozka-sbornyh-gruzov.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.ysl-logo6{
+  background-image: url(agentskie-uslugi-v-kitae.png);
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.aboutonac{
+  font-weight: bold;
+  font-size: 60px;
+  margin-left:4%;
+}
+.about2{
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.projs{
+  font-weight: bold;
+  font-size: 60px;
+  margin-left:4%;
+  
+}
+.card{
+  
+  
+}
+.perblock{
+  
+  display: flex;
+  justify-content: space-around;
+
+}
+.linebl{
+  width: 300px;
+  height: 500px;
+  
+}
+.line2{
+  width: 300px;
+  height: 500px;
+}
+.line3{
+  width: 300px;
+  height: 500px;
+}
+.line4{
+  width: 300px;
+  height: 500px;
+}
+.line5{
+  width: 300px;
+  height: 500px;
+}
+.line6{
+  width: 300px;
+  height: 500px;
+}
+.line7{
+  width: 300px;
+  height: 500px;
+}
+.line8{
+  width: 300px;
+  height: 500px;
+}
+.linebg{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok4-225x300.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg2{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok3-249x300.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg3{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok2-300x225.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg4{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok1-300x225.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg5{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok3-249x300.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg6{
+  width: 100%;
+  height: 60%;
+  background-image: url(risunok1-300x225.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg7{
+  width: 100%;
+  height: 60%;
+  background-image: url(f7f4dd1d-b40a-4ae4-a452-3a347505ea0b-300x225.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linebg8{
+  width: 100%;
+  height: 60%;
+  background-image: url(f2065a0c-1999-44d4-9b94-d7dc6e9e24c6-300x225.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0 0;
+}
+.linetx{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  
+}
+.maps{
+  height: 650px;
+
+  display: flex;
+  flex-direction:column;
+  
+}
+.logomaps{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left:4%;
+}
+.razdel{
+  display: flex;
+  flex-direction: row;
+
+  height: 600px;
+}
+.mapstext{
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  
+}
+.map{
+  width: 50%;
+  height: 600px;
+  background-image: url(world-map-01-scaled.jpg);
+  background-size: 100% 100%;
+  background-position: center; 
+  
+  background-repeat: no-repeat;
+ 
+}
+.logmaptextlogo{
+  color: blue;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.foryougruz{
+  font-weight: bold;
+  font-size: 20px;
+}
+.logmapbutton{
+  margin-top: 5%;
+  width: 300px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.partners{
+  width: 100%;
+  padding: 2%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.partnersbox{
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  
+}
+.vidperevoz{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  justify-content: space-around;
+  
+  
+}
+.vidperevozblock{
+  width: 100%;
+  padding: 2%;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.borags{
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #2750e6;
+  padding: 2%;
+  transition: 0.5s ease;
+}
+.borags:hover{
+  background-color: black;
+  transform: translateY(-20px);
+}
+.vidperevoztex1{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left:1%;
+  
+}
+.vidperevoztex2{
+  
+  margin-left:1%;
+  font-size: 20px;
+  margin-top: 1%;
+}
+.nashpart{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.vidblock{
+  background-size: 100% 100%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.vidblock1{
+  background-size: 100% 90%;
+  background-position: center; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.borags{
+  transform: none;
+}
+.fot{
+  width: 110%;
+  height: 300px;
+  border-top: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.fotblock{
+  margin-right: 10%;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+
+}
+.fotblocktexts{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.fotblockline{
+  width: 100%;
+  height: 0.5px;
+  background-color: #2750e6;
+  border-radius: 2px;
+}
+.fotlogoandconf{
+  width: 100%;
+  height: 50%;
+}
+.fttext{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.logologo{
+  background-image: url(./resources/logo-greatway.png);
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: 100%; 
+  width: 200px;
+  height: 100px;
+  background-position: center; 
+  background-color: white;
+}
+.alerts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.logoandtext{
+  display: flex;
+}
+.name{
+  cursor: pointer;
+}
+@media(max-width:768px){
+  .logologo{
+    width: 100%;
+  }
+  .alerts{
+    width:100%;
+  }
+  .logoandtext{
+    flex-direction: column;
+  }
+  .fotblocktexts{
+    flex-direction: column;
+    height: 600px;
+  }
+  .fot{
+    width: 100%;
+    height: 800px;
+  }
+  .fotblock{
+    height: 800px;
+    margin-left: 8%;
+  }
+  .borags:hover{
+
+  }
+  .vidblock1{
+    background-size: 90% 70%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+  }
+  .vidblock{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .borags{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #2750e6;
+    padding: 2%;
+    transition: 0.5s ease;
+  }
+  .vidperevozblock{
+    height: 1300px;
+  }
+  .partners{
+    flex-direction: row;
+    height: 1700px;
+  }
+  .partnersbox{
+    margin-top: 2%;
+  }
+  .logmapbutton{
+    margin-left: 6%
+  }
+  .mapstext{
+    width: 100%;
+
+  }
+  .map{
+    width: 100%;
+
+  }
+  .maps{
+    height: 800px;
+    flex-direction: column;
+  }
+  .razdel{
+    flex-direction: column;
+    height: 700px;
+  }
+  .logomaps{
+    align-items: center;
+    font-size: 30px;
+
+  }
+  .perblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .linebl{
+    height: 300px;
+  }
+  .line2{
+    height: 300px;
+  }
+  .line3{
+    height: 300px;
+  }
+  .line4{
+    height: 300px;
+  }
+  .projs{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 5%;
+    
+    
+  }
+  .card{}
+  #aboutblock{
+    height: 1350px;
+  }
+  #bars{
+    width: 90%;
+    
+  }
+  #blec{
+    height: 100px;
+  }
+  .ysl-logo1{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .ysl-logo2{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .ysl-logo3{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .ysl-logo4{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .ysl-logo5{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .ysl-logo6{
+    background-size: 90% 80%;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  #bars2{
+    width: 90%;
+    
+  }
+  #bars3{
+    width: 90%;
+    
+  }
+  #bars4{
+    width: 90%;
+    
+  }
+  #bars5{
+    width: 90%;
+    
+  }
+  #bars6{
+    width: 90%;
+    
+  }
+  .blocks-logs{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .blocks-text{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .blocks-button{
+
+  }
+  .blocks{
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+
+  }
+  .blocks-1{
+    width: 300px;
+    height: 200px;
+    
+  }
+  .blocks-2{
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+  }
+  .glav{
+    display: none;
+  }
+  .ysl{
+    display: none;
+  }
+  .onac{
+    display: none;
+  }
+  .spaced{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
+  .contact2{
+    display: none;
+  }
+  .lscab{
+    display: none;
+  }
+  .comb{
+    width: 80%;
+  }
+  .tex{
+    text-align: center;
+    justify-content: center;
+  }
+  .banner{
+    width: 100%;
+    height: 350px;
+  }
+  .bannertext{
+    font-size: 30px;
+  }
+  .bod{
+    height: 550px;
+  }
+  .btagban{
+    margin-top: 2%;
+    width: 40%;
+  }
+  .about{
+    height: 700px;
+  }
+  .aboutonac{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 10%;
+    
+  }
+}
+@media(min-width:768px){
+  .showme{
+    display: none;
+  }
+  .bm {
+    display: none;
+  }
+
+  .ham {
+    display: none;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+

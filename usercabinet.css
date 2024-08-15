@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.usercabinetbody{
+    width: 100%;
+    height: 600px;
+
+    margin-top: 100px;
+    display: flex;
+}
+.felbod{
+    display: flex;
+    flex-direction: column;
+}
+.formzak{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.checkzak{
+    width: 50%;
+    height: 600px; /* Фиксированная высота контейнера */
+    
+    overflow: auto;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+}
+.formet{
+    padding: 2%;
+}
+.zakformest{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.formet{
+    height: 30px;
+    border-radius: 20px;
+    width: 100%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.formlogo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.butert{
+    margin-top: 20%;
+    background-color: orange;
+    color: black;
+    border: none;
+    width: 100% ;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.fot{
+    margin-top: 2%;
+}
+.avert{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.orderoform{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 2%;
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    padding: 2%;
+}
+.zakblock{
+    background-color: black;
+}
+@media(max-width:768px){
+    .usercabinetbody{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .formzak{
+        width: 100%;
+    }
+    .checkzak{
+        width: 100%;
+    }
+}
